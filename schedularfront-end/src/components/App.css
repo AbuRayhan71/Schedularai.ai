@@ -1,0 +1,53 @@
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .schedule-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-form input,
+  .schedule-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .schedule-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .schedule-form button:disabled {
+    background-color: #6c757d;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-output {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .schedule-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .schedule-item p {
+    margin: 5px 0;
+  }
+  
